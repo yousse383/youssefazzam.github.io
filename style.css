@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: #084c38;
+    color: white;
+    box-shadow: 0 2px 10px rgba(79, 52, 52, 0.2);
+}
+
+
+.logo {
+    a{
+      text-decoration: none;
+      color: #ffffff;
+    }
+    font-size: 22px;
+    font-weight: bold;
+   
+}
+
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+
+nav a:hover {
+    color: #00bcd4;
+}
+
+
+.btn {
+    background: #00bcd4;
+    padding: 8px 15px;
+    border-radius: 6px;
+    color: black;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #0d2528;
+    color: white;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;  
+    align-items: center;     
+    background: linear-gradient(135deg, #092034, #0d373a);
+}
+
+
+.hero h3 {
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center; 
+    margin-top: -250px;
+}
+
+
+.btn {
+    padding: 12px 25px;
+    background-color: white;
+    color: #333;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+
+.btn:hover {
+    background-color: #333;
+    color: white;
+    transform: scale(1.1);
+}
